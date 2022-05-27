@@ -1,0 +1,19 @@
+h2{
+    color:red;
+}
+.highlight{
+    border:solid;
+}
+#profile{
+    border:solid;
+    border-color:blue;
+}
+
+.thumbnail_grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.thumbnail{
+    width:100%;
+}
