@@ -63,12 +63,15 @@ body{
 }
 
 #profile_info{
-    display:grid;
-    grid-template-rows: 1fr 1fr;
+    /* display:grid;
+    grid-template-rows: 1fr 1fr; */
 
-    height: 15vw;
+    /* height: 15vw; */
+
+
+display: grid;
+grid-template-columns: 1fr 3.5fr;
 }
-
 #id{
     font-size: 6vwx;
     font-weight: 100;

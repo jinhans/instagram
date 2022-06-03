@@ -5,8 +5,15 @@
 font-awesome/5.15.2/css/all.min.css"/>
         <link href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         rel="stylesheet"/>
+        <script src="14_1_1.js"></script>
+        <!-- <script src="test.js"></script> -->
     </head>
     <body>
+        <script>
+            // console.log("test")
+            // alert("How do you feeling today?")
+        
+        </script>
         <div id="top">
             <img src="https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png"/>
             <input type="search" value="검색"/>
@@ -18,22 +25,24 @@ font-awesome/5.15.2/css/all.min.css"/>
             </div>
             
         </div>
-        <div id="profile">
-            <!-- <div id="profile"></div> -->
-            <img src="image/profile.jpg" width="50px" class="circle_pic" />
-            <div>half_bottle
-                <i class="fas fa-cog"></i>
-                <button>프로필 편집</button>
+    
+        <div id="profile_info">
+            <img src="image/profile.jpg" width="50px" class="circle_pic"/>
+            <div>
+                <div id="id">
+                <span>half_bottle</span>
+                <i class="fas fa-cog"></i>   
+                </div>    
+                <button id="profile_info_button">프로필 편집</button>
             </div>
-            <!-- <button>프로필 편집</button> -->
+           
         </div>
         <p>
-        <strong>
-            반병현(Byunghyun Ban)<br/>
-           </strong>
-            작가
+        <strong id="userInfo"> 반병현(Byunghyun Ban)
+           </strong><br/>
+           <span id="smmary">작가</span>
         </p>
-        <p>
+        <p id="profileDetail">    
             <a herf="https://booksr.co.kr">
             needleworm.github.io</p>
             </a>
